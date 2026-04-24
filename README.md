@@ -38,5 +38,10 @@
 3) Financial returns deviate from normality due to heavy tails and skewness. Using normal distributions underestimates downside risk, while Student 's-t and GMM provide more accurate tail-risk estimates.
 
 **Limitations & Bias:**
-1) This research only analyzes S&P 500 stocks that remained listed throughout the study period. This causes survivorship bias, as “failed” companies are excluded from the sample set. Therefore, the observed risk-return relationship may not fully represent the broader universe of U.S. stock market.
+1) This research only analyzes S&P 500 stocks that remained listed throughout the study period. This causes survivorship bias, as “failed” companies are excluded from the sample set. Therefore, the observed risk-return relationship may not fully represent the broader universe of the U.S. stock market.
+
+**Updates & Revisions:**
+1) Kurtosis clarification: Excel calculates excess kurtosis, not raw kurtosis; interpretation updated accordingly
+2) VaR estimation: Replaced linear interpolation with inverse normal distribution for improved accuracy
+3) t-distribution parameterization: Corrected degree-of-freedom handling in inverse function
 
