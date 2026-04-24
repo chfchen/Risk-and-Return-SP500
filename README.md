@@ -1,5 +1,5 @@
-**Title:**
 **Risk and Return: A Data-Driven Statistical Analysis of the S&P 500**
+  Charles Chen, James E. Taylor High School 
   
 **Hypotheses:**
   1. Higher investment risk does not consistently correspond to higher realized returns
